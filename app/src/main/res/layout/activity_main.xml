@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/image">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="SnapTask"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Username"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Password"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:backgroundTint="#CBC3E3"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:backgroundTint="#CBC3E3"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/ForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#000080"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+</LinearLayout>
